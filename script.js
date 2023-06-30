@@ -25,7 +25,7 @@ function getAudio(name) {
           audioData,
           (buf) => {
             buffer = buf;
-            const max = Math.floor(buf.duration); // in this case buf === global buffer
+            //const max = Math.floor(buf.duration); // in this case buf === global buffer
             play.disabled = false;
           },
           (err) => {
